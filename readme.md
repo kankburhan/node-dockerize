@@ -1,8 +1,8 @@
-#Docker Compose Node
+# Docker Compose Node
 
-###How To Use:
+### How To Use:
 
-####1. Clone this Repository
+#### 1. Clone this Repository
 ```git clone https://github.com/kankburhan/node-dockerize.git```
 
 #### 2. Clone your node application into app folder
