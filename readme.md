@@ -16,6 +16,26 @@ project structure:
         -app/
 ```
 #### 3. Copy .env.example to .env
+#### 4. Add npm install on your package
+Open ```app/package.json``` and find ```scripts``` and add ```npm install``` in start app, for example your scripts like below:
+```
+"scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "start": "nodemon app"
+  },
+```
+
+change ```start``` to 
+ ```"start": "npm install && nodemon app"```
+
+Final ```scripts```:
+```
+"scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "start": "npm install && nodemon app"
+  },
+```
+
 #### 4. Build and run your docker
 Open your terminal and goto node-dockerize
 ``` docker-compose up -d --build```
