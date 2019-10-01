@@ -17,7 +17,7 @@ project structure:
 ```
 #### 3. Copy .env.example to .env
 #### 4. Add npm install on your package
-Open ```app/package.json``` and find ```scripts``` and add ```npm install``` in start app, for example your scripts like below:
+Open ```app/package.json``` and find ```scripts``` just add ```npm install``` in start app, for example your scripts like below:
 ```
 "scripts": {
     "test": "echo \\\"Error: no test specified\\\" && exit 1",
@@ -36,10 +36,10 @@ Final ```scripts```:
   },
 ```
 
-#### 4. Build and run your docker
+#### 5. Build and run your docker
 Open your terminal and goto node-dockerize
 ``` docker-compose up -d --build```
 
-#### 5. Test your application
+#### 6. Test your application
 open browser and goto
 ``` http://localhost:3000/ ```
